@@ -12,6 +12,7 @@ var makeArcPath = function (startPercent, endPercent, radius) {
   ].join(" ");
 };
 var arcs = {
+
   n4: makeArcPath(7/8, 5/8, 36),
   s4: makeArcPath(3/8, 1/8, 36),
   e4: makeArcPath(1/8, -1/8, 36),

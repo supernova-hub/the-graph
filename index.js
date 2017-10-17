@@ -17,6 +17,8 @@ var g = { TheGraph: TheGraph };
 TheGraph.factories = require('./the-graph/factories.js');
 TheGraph.merge = require('./the-graph/merge.js');
 
+
+
 require("./the-graph/the-graph.js").register(g);
 require("./the-graph/the-graph-app.js").register(g);
 require("./the-graph/the-graph-graph.js").register(g);
